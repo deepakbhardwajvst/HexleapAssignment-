@@ -114,8 +114,9 @@ export const CardSwiper = () => {
         >
           {sliderImages.map((slide, inx) => (
             <Image
-              width={500}
-              height={500}
+              width={480}
+              height={480}
+              loading="lazy"
               key={inx}
               src={slide}
               className=" h-full min-w-[33.33%] rounded-2xl border-8 border-transparent object-cover overflow-hidden"

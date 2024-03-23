@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import ToggleButton from "@/components/Toggle-Theme/ToggleButton";
+import ToggleColorButton from "@/components/Toggle-Theme/ToggleColorButton";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Hexleap Assignment",
-  description: "Hexleap - NextJS Frontend- Assignment",
+  description: "Hexleap - NextJS Frontend-Assignment",
 };
 
 export default function RootLayout({
@@ -17,10 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#F7F7F8] dark:bg-dark`}>
-        <ToggleButton />
+      <body
+        className={`${inter.className} bg-[#F7F7F8] dark:bg-dark`}
+      >
+        <ToggleColorButton />
         {children}
       </body>
     </html>
   );
 }
+
+

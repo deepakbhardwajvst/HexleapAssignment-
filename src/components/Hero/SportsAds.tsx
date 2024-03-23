@@ -9,6 +9,7 @@ const SportsAds = () => {
           <Image
             width={600}
             height={10000}
+            priority={true}
             className="w-full h-64 object-cover drop-shadow-md"
             src="/Sports/ads.jpeg"
             alt="Image"
@@ -21,7 +22,7 @@ const SportsAds = () => {
             </div>
           </div>
         </div>
-        <div className="p-4 border-b border-x border-[#006555]">
+        <div className="p-4 border-b-[0.2px]  border-x-[0.2px] border-[#006555]">
           <h3 className="text-xl font-semibold mb-2 dark:text-white">
             Advertisement title
           </h3>
