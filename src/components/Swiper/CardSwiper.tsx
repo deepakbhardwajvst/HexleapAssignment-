@@ -37,6 +37,15 @@ export const CardSwiper = () => {
     "/Collection/img-1.jpeg",
     "/Collection/img-2.jpeg",
     "/Collection/img-1.jpeg",
+    "/Collection/img-1.jpeg",
+    "/Collection/img-2.jpeg",
+    "/Collection/img-1.jpeg",
+    "/Collection/img-2.jpeg",
+    "/Collection/img-1.jpeg",
+    "/Collection/img-2.jpeg",
+    "/Collection/img-1.jpeg",
+    "/Collection/img-2.jpeg",
+    "/Collection/img-1.jpeg",
   ];
   const prevSlider = () => {
     setCurrentSlider((currentSlider) =>
